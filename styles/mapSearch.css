@@ -1,0 +1,37 @@
+#mapSearch{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	left: 0;
+	top: -200%;
+	z-index: -99;
+	opacity: 0;
+	transition: opacity 0.5s, z-index 3s, top 0.5s;
+	-moz-transition: opacity 0.5s, z-index 3s, top 0.5s;
+	/* Firefox 4 */
+	-webkit-transition: opacity 0.5s, z-index 3s, top 0.5s;
+	/* Safari and Chrome */
+	-o-transition: opacity 0.5s, z-index 3s, top 0.5s;
+	/* Opera */
+}
+#mapSearch.show{
+	top: 0;
+	opacity: 1;
+	z-index: 999;
+	transition: opacity 0.5s, z-index 3s, top 0.5s;
+	-moz-transition: opacity 0.5s, z-index 3s, top 0.5s;
+	/* Firefox 4 */
+	-webkit-transition: opacity 0.5s, z-index 3s, top 0.5s;
+	/* Safari and Chrome */
+	-o-transition: opacity 0.5s, z-index 3s, top 0.5s;
+	/* Opera */
+}
+.tangram-suggestion-main{
+	z-index: 9999 !important;
+	top: 40px !important;
+}
+.showSearchBtn{
+	font-size: 14px !important;
+	line-height: 60px;
+}
